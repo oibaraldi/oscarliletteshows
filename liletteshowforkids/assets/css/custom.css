@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-size: 100%;
+}
+.slider {
+    box-shadow: 0 4em 3em hsla(0,0%,0%,.4);
+    height: 15em;
+    left: 50%;
+    margin: -7.5em -12em;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    width: 24em;
+}
+
+.topspace{
+    margin:100px auto;max-width:805px;
+    }
+
+.selected img {
+    opacity:0.5;
+}
+
+.imgContainer{
+    float:right;
+}
+
+.myIframe {
+padding-bottom: 65.25%;
+padding-top: 30px;
+height: 0;  
+border: solid black 1px;
+} 
+.myIframe iframe {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+}
+
+.hide-bullets {
+list-style:none;
+margin-left: -40px;
+margin-top:20px;
+}
+
+
